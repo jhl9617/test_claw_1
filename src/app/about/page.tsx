@@ -38,6 +38,9 @@ export default function AboutPage() {
           <Link href="/contact" className="transition hover:text-slate-950">
             Contact
           </Link>
+          <Link href="/dashboard" className="transition hover:text-slate-950">
+            Dashboard
+          </Link>
           <Link href="/login" className="transition hover:text-slate-950">
             Sign in
           </Link>

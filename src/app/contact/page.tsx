@@ -23,6 +23,9 @@ export default function ContactPage() {
           <Link href="/about" className="transition hover:text-slate-950">
             About
           </Link>
+          <Link href="/dashboard" className="transition hover:text-slate-950">
+            Dashboard
+          </Link>
           <Link href="/login" className="transition hover:text-slate-950">
             Sign in
           </Link>

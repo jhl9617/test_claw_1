@@ -29,6 +29,9 @@ export default function Home() {
           <Link href="/contact" className="transition hover:text-slate-950">
             Contact
           </Link>
+          <Link href="/dashboard" className="transition hover:text-slate-950">
+            Dashboard
+          </Link>
           <a href="#platform" className="transition hover:text-slate-950">
             Platform
           </a>
@@ -66,12 +69,12 @@ export default function Home() {
             >
               Open workspace
             </Link>
-            <a
-              href="#platform"
+            <Link
+              href="/dashboard"
               className="inline-flex h-12 items-center justify-center rounded-full border border-slate-300 bg-white/65 px-6 text-sm font-semibold text-slate-900 transition hover:bg-white"
             >
               View dashboard
-            </a>
+            </Link>
           </div>
         </div>
 
