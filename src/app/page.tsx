@@ -23,6 +23,9 @@ export default function Home() {
           <span>Test Claw</span>
         </Link>
         <nav className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
+          <Link href="/about" className="transition hover:text-slate-950">
+            About
+          </Link>
           <a href="#platform" className="transition hover:text-slate-950">
             Platform
           </a>
