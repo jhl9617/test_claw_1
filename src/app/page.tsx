@@ -26,6 +26,9 @@ export default function Home() {
           <Link href="/about" className="transition hover:text-slate-950">
             About
           </Link>
+          <Link href="/contact" className="transition hover:text-slate-950">
+            Contact
+          </Link>
           <a href="#platform" className="transition hover:text-slate-950">
             Platform
           </a>
